@@ -56,7 +56,6 @@ fun main(args: Array<String>) {
                 }
             }
         }
-    println("Program arguments: ${args.joinToString()}\n")
     for (arg in args) {
         if (isFile(arg) && !commands.contains(arg)) {
             //println("isFile($arg) =  ${isFile(arg)}") // Debug purposes
